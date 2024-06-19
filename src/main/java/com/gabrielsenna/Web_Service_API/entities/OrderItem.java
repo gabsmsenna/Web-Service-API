@@ -2,7 +2,6 @@ package com.gabrielsenna.Web_Service_API.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.gabrielsenna.Web_Service_API.entities.PK.OrderItemPK;
-import jakarta.persistence.Embedded;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
