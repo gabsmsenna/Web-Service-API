@@ -1,5 +1,6 @@
 package com.gabrielsenna.Web_Service_API.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -14,6 +15,7 @@ public class Payment implements Serializable {
     private Long id;
     private Instant moment;
 
+    @JsonIgnore
     @OneToOne
     @MapsId
     private Order order;
@@ -25,6 +27,8 @@ public class Payment implements Serializable {
         this.moment = moment;
         this.order = order;
     }
+
+
 
     public Long getId() {
         return id;
