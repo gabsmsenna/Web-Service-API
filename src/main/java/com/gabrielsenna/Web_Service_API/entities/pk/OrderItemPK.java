@@ -1,4 +1,4 @@
-package com.gabrielsenna.Web_Service_API.entities.PK;
+package com.gabrielsenna.Web_Service_API.entities.pk;
 
 import com.gabrielsenna.Web_Service_API.entities.Order;
 import com.gabrielsenna.Web_Service_API.entities.Product;
